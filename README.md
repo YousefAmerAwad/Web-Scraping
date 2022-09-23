@@ -11,11 +11,14 @@ This website will give you more information about web scraping https://realpytho
 
 
 ## Project Description
-In this project we will scrape data from Wuzzuf website. Wuzzuf is an online employment platform that helps you in your online job search to find Jobs in Egypt and Middle East. We will search for available data science jobs. For each job we will find job title, company name, location, skills, requirements and salary. Then we put these information in a csv file. <br>
+In this project we will scrape data from two websites.
+- Wuzzuf: It's an online employment platform that helps people to find Jobs in Egypt and Middle East. We will search for available data science jobs. For each job we will find job title, company name, location, skills, requirements and salary. Then we put these information in a csv file. <br>
 The URL of the page: https://wuzzuf.net/search/jobs/?a=hpb&q=data%20science
 
-In this project, we will use Python for scraping because of its ease. It has a library known as 'Beautiful Soup' which assists this task.
+- Oasis Cars: A trusted name among locals and expats communities in Qatar founded in (1997) in buying and selling new and used cars. For each car, we will find Model, Year, Show_Room, Mileage, Specs and Price. <br>
+URL: https://oasiscars.com/Cars/List
 
+In this project, we will use Python for scraping because of its ease. It has a library known as 'Beautiful Soup' which assists this task.
 ## Libraries used for Web Scraping 
 - <b> BeautifulSoup</b>:  Beautiful Soup is a Python package for parsing HTML and XML documents. It creates parse trees that is helpful to extract the data easily.
 - <b> requests</b>: With Python's requests library we're getting a web page by using get() on the URL, using page.content will give us the HTML. Once we have the HTML we can then parse it for the data we're interested in analyzing.
